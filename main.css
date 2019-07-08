@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Playlist Script;
+  src: url('fonts/Playlist Script.otf');
+}
+@font-face {
+  font-family: GothamMedium;
+  src: url('fonts/GothamMedium.ttf');
+}
+/*=========================================================================================*/
+
+body
+{
+  background:white no-repeat center center fixed;
+  background-color:white;
+  font-size: 12px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: GothamMedium;
+  color: black;
+}
+@media only screen and (max-width: 720px)
+{
+  body
+  {
+    background:white no-repeat center center fixed;
+  }
+}
+/*=========================================================================================*/
+
+.copyright
+{
+  color: rgba(255, 255, 255, 0.5);
+}
+/*=========================================================================================*/
+
+
+.box{
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family:GothamMedium;
+}
+/*=========================================================================================*/
+
+
+.under
+{
+  font-family: Playlist Script;
+  font-size: 130px;
+  text-align: center;
+}
+@media only screen and (max-width: 720px)
+{
+  .under
+{
+    font-family: Playlist Script;
+    font-size: 70px;
+}
+}
+/*=========================================================================================*/
+
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+li a{
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  transition: all ease-in-out 250ms;
+}
+li a:hover{
+  color: #b9b9b9;
+}
+/*=========================================================================================*/
+
+.parallax {
+    background-image: url("back.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 720px)
+{
+.parallax
+{
+    width:100%;
+    min-height: 500px;
+    background-size:cover;
+}
+}
+.parallax2 {
+    background-image: url("1.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
