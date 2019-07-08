@@ -1,1 +1,1 @@
-# steamdiku
+# diku.github.io
